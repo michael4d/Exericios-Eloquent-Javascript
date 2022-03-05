@@ -11,7 +11,7 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 
-'''javascript
+```javascript
 let count = 0;
 let hashtag = "#";
 
@@ -20,4 +20,4 @@ while(count < 7){
   hashtag += "#";
   count += 1;
 }
-'''
+```
