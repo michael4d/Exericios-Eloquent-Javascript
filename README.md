@@ -61,3 +61,30 @@ while (count <= 100){
 ```
 
 
+
+## Chessboard
+
+
+
+
+
+
+
+```Javascript
+// Versão simplificada somente com alteração na altura do tabueiro
+let size = prompt("quantas linhas voce quer no tabuleiro?");
+let count = 0;
+let tabuleiro = " # # # #\n";
+while(count <= size){
+  if (count % 2 === 0){
+    tabuleiro += "# # # # \n";
+  }
+  if (count % 2 !== 0){
+    tabuleiro += " # # # #\n";
+  }
+  count += 1;	 
+}
+
+console.log(tabuleiro);
+```
+
